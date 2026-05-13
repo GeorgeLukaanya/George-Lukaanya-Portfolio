@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>George Lukaanya | Software Engineer & ML Researcher</title>
+  <meta name="description" content="Portfolio of George Lukaanya — Software Engineer and Machine Learning Researcher at Makerere University, Kampala, Uganda." />
+  <meta name="author" content="George Lukaanya" />
+  <meta property="og:title" content="George Lukaanya | Software Engineer & ML Researcher" />
+  <meta property="og:description" content="Building intelligent systems at the intersection of software engineering and machine learning." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0a0f1a" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <!-- NAV DOTS -->
+  <nav class="nav-rail" id="navRail"></nav>
+
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero-grid">
+      <div class="hero-left">
+        <div class="badge">SOFTWARE ENGINEER &amp; ML RESEARCHER</div>
+        <h1 class="hero-name">George<br><span class="accent">Lukaanya</span></h1>
+        <p class="hero-sub">Building intelligent systems at the intersection of software engineering and machine learning. Currently researching real-time computer vision for autonomous navigation at Makerere University.</p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">View Projects ↓</a>
+          <a href="#contact" class="btn-outline">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="terminal">
+          <div class="terminal-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">george@portfolio:~</span>
+          </div>
+          <div class="terminal-body" id="terminalBody"></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator"><div class="scroll-line"></div></div>
+  </section>
+
+  <!-- ABOUT / STATS -->
+  <section id="about" class="section">
+    <div class="fade-in">
+      <div class="section-label">ABOUT</div>
+      <h2 class="section-title">What I Bring</h2>
+    </div>
+    <div class="stats-grid">
+      <div class="fade-in"><div class="stat-card"><div class="stat-number" data-target="3" data-suffix="+">0</div><div class="stat-label">Projects Shipped</div></div></div>
+      <div class="fade-in"><div class="stat-card"><div class="stat-number" data-target="83" data-suffix=".5%">0</div><div class="stat-label">mAP@0.5 (HospiNav)</div></div></div>
+      <div class="fade-in"><div class="stat-card"><div class="stat-number" data-target="73" data-suffix="%">0</div><div class="stat-label">Model Size Reduction</div></div></div>
+      <div class="fade-in"><div class="stat-card"><div class="stat-number" data-target="2" data-suffix="">0</div><div class="stat-label">Research Papers</div></div></div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="fade-in">
+      <div class="section-label">TOOLKIT</div>
+      <h2 class="section-title">Technical Skills</h2>
+    </div>
+    <div class="skills-grid" id="skillsGrid"></div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="fade-in">
+      <div class="section-label">WORK</div>
+      <h2 class="section-title">Featured Projects</h2>
+    </div>
+    <div class="projects-list" id="projectsList"></div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="fade-in">
+      <div class="section-label">CAREER</div>
+      <h2 class="section-title">Experience</h2>
+    </div>
+    <div class="timeline" id="timeline"></div>
+
+    <div class="fade-in"><div class="section-label" style="margin-top:60px;">EDUCATION</div></div>
+    <div class="fade-in">
+      <div class="edu-card">
+        <div class="edu-degree">BSc Software Engineering</div>
+        <div class="edu-school">Makerere University, Kampala</div>
+        <div class="edu-period">Aug 2023 – Present</div>
+      </div>
+    </div>
+
+    <div class="fade-in"><div class="section-label" style="margin-top:60px;">RESEARCH (IN PROGRESS)</div></div>
+    <div class="fade-in">
+      <div class="research-card">
+        <div class="research-title">A Dual-Model Convolutional Architecture for Real-Time Hospital Navigation: Mitigating Annotation Sparsity and Class Imbalance</div>
+        <div class="research-authors">Akanga, A., <strong>Lukaanya, G.</strong>, &amp; Kayonga, T. J.</div>
+        <div class="research-venue">Prepared for IEEE Access · In progress</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="fade-in">
+      <div class="section-label">CONNECT</div>
+      <h2 class="section-title">Let's Build Something</h2>
+      <p class="contact-sub">Open to internships, research collaborations, and engineering opportunities.</p>
+    </div>
+    <div class="fade-in">
+      <div class="contact-grid">
+        <a href="mailto:georgelukaanya348@gmail.com" class="contact-card">
+          <div class="contact-icon">✉</div>
+          <div class="contact-label-text">Email</div>
+          <div class="contact-value">georgelukaanya348@gmail.com</div>
+        </a>
+        <a href="tel:+256770736755" class="contact-card">
+          <div class="contact-icon">☎</div>
+          <div class="contact-label-text">Phone</div>
+          <div class="contact-value">+256-770736755</div>
+        </a>
+        <a href="https://www.linkedin.com/in/george-lukaanya" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <div class="contact-icon">in</div>
+          <div class="contact-label-text">LinkedIn</div>
+          <div class="contact-value">george-lukaanya</div>
+        </a>
+        <a href="https://github.com/GeorgeLukaanya" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <div class="contact-icon">&lt;/&gt;</div>
+          <div class="contact-label-text">GitHub</div>
+          <div class="contact-value">GeorgeLukaanya</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <span>© 2026 George Lukaanya</span>
+    <span class="footer-dot">·</span>
+    <span>Kampala, Uganda</span>
+  </footer>
+
+  <script src="assets/data.js"></script>
+  <script src="assets/main.js"></script>
+</body>
+</html>
