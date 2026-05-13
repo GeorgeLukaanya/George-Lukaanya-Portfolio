@@ -1,0 +1,19 @@
+# Build output
+.dist/
+
+# Source documents
+*.docx
+*.pdf
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
