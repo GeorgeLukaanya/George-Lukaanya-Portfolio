@@ -161,7 +161,7 @@
       <div class="project-card">
         <div class="project-header">
           <div>
-            <div class="project-period">${p.period}</div>
+            <div class="project-period">${p.period}${p.status ? ` <span class="project-status-badge">${p.status}</span>` : ""}</div>
             <h3 class="project-title">${p.title}</h3>
             <div class="project-subtitle">${p.subtitle}</div>
           </div>

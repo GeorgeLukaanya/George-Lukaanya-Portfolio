@@ -48,6 +48,20 @@ const PROJECTS_DATA = [
       "YOLOv8 object detection for agricultural monitoring",
     ],
   },
+  {
+    title: "YOLO-Based Beehive Monitoring System",
+    subtitle: "Ademnea – IoT Research & Applications Lab, Makerere University",
+    period: "Oct 2024 – Present",
+    status: "In Progress",
+    tags: ["YOLOv8", "Computer Vision", "Object Detection", "Python", "Precision Apiculture"],
+    description: "A non-invasive, automated bee entrance counting system using YOLO-based object detection, designed for tropical beekeeping environments in Uganda. Addresses the contextual gap of applying deep learning to unmodified real-world hives with Apis mellifera scutellata — a subspecies underrepresented in existing datasets.",
+    highlights: [
+      "Dataset collection & annotation from Ugandan apiaries (Apis mellifera scutellata)",
+      "YOLO-based bee entrance counting under real-world field conditions",
+      "Comparative evaluation against established detection architectures",
+      "Co-authored research paper in preparation",
+    ],
+  },
 ];
 
 const EXPERIENCE_DATA = [

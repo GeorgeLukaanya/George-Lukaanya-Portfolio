@@ -344,6 +344,21 @@ a { text-decoration: none; color: inherit; }
   color: var(--text-dim);
   font-family: var(--font-mono);
   margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.project-status-badge {
+  font-size: 10px;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+  border-radius: 4px;
+  padding: 1px 7px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 .project-title {
   font-size: 24px;
