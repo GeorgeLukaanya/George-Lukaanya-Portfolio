@@ -1,6 +1,6 @@
 // ===== DATA =====
 const SKILLS_DATA = [
-  { category: "Languages", items: ["Python", "JavaScript", "PHP", "SQL", "HTML/CSS"] },
+  { category: "Languages", items: ["Python", "JavaScript", "PHP", "SQL", "HTML/CSS", "Java", "C"] },
   { category: "ML & CV", items: ["YOLOv8", "TensorFlow", "DETR", "OpenCV", "Scikit-learn", "Knowledge Distillation"] },
   { category: "Frameworks", items: ["FastAPI", "ReactJS", "Laravel", "Django", "Flask", "ExpressJS"] },
   { category: "Data", items: ["NumPy", "Pandas", "Matplotlib", "Seaborn", "SQLAlchemy"] },
